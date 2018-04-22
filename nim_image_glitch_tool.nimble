@@ -12,3 +12,4 @@ skipFiles     = @["night.nim"]
 
 requires "nim >= 0.18.0"
 requires "docopt >= 0.6.5"
+requires "stb_image >= 2.1"
