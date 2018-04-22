@@ -1,12 +1,13 @@
 from nim_image_glitch_tool as m import nil
 
 const cmdName: string = "night"
+const description: string = "Night - Image GlitcH Tool written in Nim. (for study)"
 
 when isMainModule:
   import docopt, tables, streams, strutils
 
   let doc = """
-$cmdName - Image Glitch Tool written in Nim. (for study)
+$description
 
 Usage:
   $cmdName [real | safe] [<input>] [-o <output> | --output <output>]
@@ -14,12 +15,12 @@ Usage:
   $cmdName (-v | --version)
 
 Options:
-  real                            Real glitch. ファイルが壊れるかも。 (default)
-  safe                            Safe glitch. ファイルは壊れません。
+  real                            Real glitch. 出力ファイルが壊れるかも。 (default)
+  safe                            Safe glitch. 出力ファイルは壊れません。
   -o <output>, --output <output>  Output file. 省略時、標準出力へ書き出し。
   -h --help                       Show this screen.
   -v --version                    Show version.
-""" % [ "cmdName", $cmdName ]
+""" % [ "cmdName", $cmdName, "description", $description ]
 
   let versionString = "$cmdName $version" % [ "cmdName", $cmdName, "version", $m.version ]
 

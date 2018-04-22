@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.0"
+version       = "0.1.1"
 author        = "\xE9\xB5\x9C\xE5\xB7\xB7"
 description   = "Image Glitch Tool written in Nim. (for study)"
 license       = "WTFPL"
