@@ -7,17 +7,19 @@ Nimの練習に作成したグリッチツールです。何が起きても知�
 ## Usage
 ```sh
 $ night -h
-night - Image Glitch Tool written in Nim. (for study)
+Night - Image GlitcH Tool written in Nim. (for study)
 
 Usage:
-  night real [<input>] -o [<output>]
-  night safe [<input>] -o [<output>]
+  night [real | safe] [<input>] [-o <output> | --output <output>]
   night (-h | --help)
   night (-v | --version)
 
 Options:
-  -h --help     Show this screen.
-  -v --version  Show version.
+  real                            Real glitch. 出力ファイルが壊れるかも。 (default)
+  safe                            Safe glitch. 出力ファイルは壊れません。
+  -o <output>, --output <output>  Output file. 省略時、標準出力へ書き出し。
+  -h --help                       Show this screen.
+  -v --version                    Show version.
 ```
 
 ## Feature
