@@ -42,7 +42,7 @@ Options:
     ```
 1. glitch!
     ```sh
-    $ curl -L https://avatars2.githubusercontent.com/u/80503?s=400&v=4 | night | imgcat
+    $ curl -L 'https://avatars2.githubusercontent.com/u/80503?s=400&v=4' | night | imgcat
     ```
  
 ## License
